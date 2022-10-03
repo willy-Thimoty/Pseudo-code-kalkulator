@@ -1,0 +1,78 @@
+ Mulai Program
+   nilai;
+   operasi;
+   hasil;
+   cetak hasil;
+
+    }
+    jika tombol1 diklik {
+        menampilkan(1);
+
+    }
+
+    jika tombol2 diklik {
+        menampilkan(2);
+
+    }
+    jika tombol3 diklik {
+        menampilkan(3);
+
+    }
+    jika tombol4 diklik {
+        menampilkan(4);
+
+    }
+    jika tombol5 diklik {
+        menampilkan(5);
+
+    }
+    jika tombol6 diklik {
+        menampilkan(6);
+
+    }
+    jika tombol7 diklik {
+        menampilkan(7);
+
+    }
+    jika tombol8 diklik {
+        menampilkan(8);
+
+    }
+    jika tombol9 diklik {
+        menampilkan(9);
+
+    }
+     jika tombolTambah diklik {
+        menampilkan();
+        operasi = '+';
+
+    }
+
+     jika tombolKurang diklik {
+        menampilkan();
+        operasi = '-';
+
+    }
+     jika tombolBagi diklik {
+        menampilkan();
+        operasi = '/';
+
+    }
+     jika tombolKali diklik {
+        menampilkan();
+        operasi = '*';
+
+    }
+
+
+penghitungan() {
+
+        if kondisi(operasi == '+')
+            hasil = nilai + nilai;
+        else if(operasi == '-')
+            hasil = nilai - nilai
+        else if(op == '/')
+            hasil = nilai / nilai;
+        else if(op == '*')
+            hasil = nilai * nilai;
+        Cetak hasil(""+hasil);
